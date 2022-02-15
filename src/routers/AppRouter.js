@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Redirect, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { LoginScreen } from "../components/auth/LoginScreen";
 import { CalendarScreen } from "../components/calendar/CalendarScreen";
 
@@ -17,8 +17,3 @@ export const AppRouter = () => {
     </div>
   );
 };
-
-// {
-//   // exact  /login
-//   // exact /   -Calendar
-// }
