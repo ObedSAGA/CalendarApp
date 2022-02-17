@@ -1,3 +1,19 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.caledar-screen {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+.rbc-calendar {
+    height: 100%;
+}
+
+
 /* Modal */
 .ReactModalPortal > div{
     opacity: 0;
@@ -48,4 +64,23 @@
 .react-datetime-picker__wrapper {
     border: 0px solid gray !important; 
 
+}
+
+/* FABS (FLOATING ACTIONS BUTTONS */
+
+.fab {
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 30px;
+    padding: 25px;
+    position: fixed;
+    right: 25px;
+
+}
+
+.fab-danger {
+    bottom: 30px;
+    font-size: 15px;
+    position: fixed;
+    left: 25px;
 }
