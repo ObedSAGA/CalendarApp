@@ -83,4 +83,5 @@ html, body {
     font-size: 15px;
     position: fixed;
     left: 25px;
+    z-index: 3;
 }
