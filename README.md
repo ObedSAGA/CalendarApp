@@ -1,5 +1,5 @@
 # Calendar App
-**Calendar App** es un aplicación que permite generar eventos en un calendario tipo Google Calendar.
+**Calendar App** es una aplicación que permite generar eventos en un calendario tipo Google Calendar.
 
  
 Demo: [App Calendar](https://mern-calendar-app-react-js.herokuapp.com/)
